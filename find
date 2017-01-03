@@ -1,0 +1,11 @@
+import java.io.*
+
+class vowel
+{
+Scanner scan=new Scanner(System.in);
+char a_a=scan.nextChar();
+if((a_a=='a')||(a_a=='e')||(a_a=='i')||(a_a=='o')||(a_a=='u'))
+System.out.println("vowel found");
+else
+System.out.println("constant found");
+}
